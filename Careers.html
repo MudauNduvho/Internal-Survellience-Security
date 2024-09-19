@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIC - Careers</title>
+    <link rel="stylesheet" href="careerstyle.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white">
+    <nav class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-green-900 text-yellow-400 w-11/12 rounded-lg py-4 shadow-md flex justify-around z-50">
+        <ul class="nav-list flex items-center space-x-4">
+            <li><a href="index.html" class="smoothScroll hover:underline"><i class="fas fa-search"></i> Home</a></li>
+           </ul>
+    </nav>
+
+    <div class="career-section py-12" id="careers">
+        <div class="container mx-auto">
+            <h2 class="text-center text-3xl font-bold mb-8">Careers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job1')">
+                    <h3 class="career-title text-xl font-semibold">Full Stack Developer</h3>
+                    <div id="job1" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Join our team to build robust web applications using the latest technologies.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Experience with HTML, CSS, and JavaScript</li>
+                            <li>Familiarity with React or Angular</li>
+                            <li>Backend experience with Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job2')">
+                    <h3 class="career-title text-xl font-semibold">Cybersecurity Analyst</h3>
+                    <div id="job2" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Protect our digital assets and ensure the security of our network infrastructure.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Knowledge of security protocols</li>
+                            <li>Experience with firewalls and intrusion detection systems</li>
+                            <li>Strong analytical skills</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job3')">
+                    <h3 class="career-title text-xl font-semibold">Data Scientist</h3>
+                    <div id="job3" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Analyze complex data sets to help drive strategic decisions.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Proficiency in statistical analysis and machine learning</li>
+                            <li>Experience with data visualization tools like Tableau or Power BI</li>
+                            <li>Strong programming skills in Python or R</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job4')">
+                    <h3 class="career-title text-xl font-semibold">DevOps Engineer</h3>
+                    <div id="job4" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Implement and manage cloud infrastructure and CI/CD pipelines.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Experience with cloud platforms like AWS, Azure, or Google Cloud</li>
+                            <li>Proficiency in scripting languages such as Bash or Python</li>
+                            <li>Knowledge of containerization tools like Docker and Kubernetes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job5')">
+                    <h3 class="career-title text-xl font-semibold">Product Manager</h3>
+                    <div id="job5" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Lead product development and ensure alignment with market needs.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Strong understanding of product lifecycle and agile methodologies</li>
+                            <li>Excellent communication and leadership skills</li>
+                            <li>Ability to analyze market trends and customer feedback</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job6')">
+                    <h3 class="career-title text-xl font-semibold">UI/UX Designer</h3>
+                    <div id="job6" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Design intuitive and engaging user interfaces for our applications.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Proficiency in design tools like Adobe XD, Figma, or Sketch</li>
+                            <li>Strong portfolio showcasing UI/UX design work</li>
+                            <li>Understanding of user-centered design principles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job7')">
+                    <h3 class="career-title text-xl font-semibold">Blockchain Developer</h3>
+                    <div id="job7" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Develop decentralized applications and explore blockchain solutions.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Experience with blockchain platforms like Ethereum or Hyperledger</li>
+                            <li>Proficiency in smart contract development and Solidity</li>
+                            <li>Strong problem-solving and analytical skills</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job8')">
+                    <h3 class="career-title text-xl font-semibold">Network Engineer</h3>
+                    <div id="job8" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Design and implement network solutions to support business operations.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Proficiency in network protocols and services</li>
+                            <li>Experience with network security and firewall configuration</li>
+                            <li>Strong troubleshooting and analytical skills</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job9')">
+                    <h3 class="career-title text-xl font-semibold">Marketing Specialist</h3>
+                    <div id="job9" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Develop marketing strategies to enhance brand awareness and engagement.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Experience in digital marketing and SEO</li>
+                            <li>Strong understanding of social media platforms and strategies</li>
+                            <li>Excellent communication and creative skills</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-post p-6 bg-gray-800 rounded-lg shadow-lg cursor-pointer" onclick="toggleDetails('job10')">
+                    <h3 class="career-title text-xl font-semibold">Technical Support Engineer</h3>
+                    <div id="job10" class="hidden space-y-4 mt-4">
+                        <p class="career-description">Provide technical assistance and support for incoming queries and issues.</p>
+                        <ul class="list-disc pl-6">
+                            <li>Strong problem-solving and customer service skills</li>
+                            <li>Proficiency in troubleshooting software and hardware issues</li>
+                            <li>Experience with help desk software and remote support tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            document.querySelectorAll('.job-details').forEach((element) => {
+                if (element.id !== id) {
+                    element.classList.add('hidden');
+                }
+            });
+            const clickedElement = document.getElementById(id);
+            clickedElement.classList.toggle('hidden');
+        }
+    </script>
+    
+</body>
+
+</html>

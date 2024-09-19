@@ -1,0 +1,747 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 2000px; 
+}
+
+
+
+
+
+#home
+{
+    height: 120vh; 
+}
+
+#Cybersecurity
+,#IR,#CM,#BS,#HS{
+    padding-top: 100px;
+    padding-bottom: 120px; 
+}
+
+#home {
+    background: url(../images/soldier-military-machine-gun-war-silhouette-black-6720x4480-6596.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    text-align: center;
+   
+}
+
+#home h2{
+
+    
+    color: #004d00;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding: 20px 35px;
+    margin: 30px 0;
+
+}
+
+#home .btn{
+
+    background: transparent;
+    color: #333333;
+    font-size: 10px;
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+    padding-top: 18px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#home .btn:hover{
+color: #D4AF37;
+border-color: transparent;}
+
+#Cybersecurity h2{
+    text-align: center;
+    color: #004d00;
+}
+
+#IR h2{
+    text-align: center;
+    color: #004d00;
+}
+
+#CM h2{
+    text-align: center;
+    color: #004d00;
+}
+
+#Cybersecurity p {
+    text-align:left;
+    color: #333333;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: #004d00;
+    color: #D4AF37;
+    width: 90%; 
+    border-radius: 10px; 
+    padding: 20px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: space-around; 
+    z-index: 1000; 
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #D4AF37;
+    text-decoration:dotted;
+}
+
+
+
+.separator {
+    width: 2px; 
+    height: 20px; 
+    background-color: #D4AF37; 
+    margin: 0 10px; 
+}
+
+.navbar-container {
+    position: relative;
+    height: 10px; 
+    width: 100%;
+}
+
+.top-navbar {
+    position: absolute;
+    top: -100%; 
+    left: 0;
+    width: 100%;
+    background-color: #004d00; 
+    color: #D4AF37;
+    display: flex;
+    justify-content: center; 
+    padding: 10px 0; 
+    z-index: 1000;
+    transition: top 0.3s ease; 
+}
+
+.navbar-container:hover .top-navbar {
+    top: 0; 
+}
+
+
+
+.top-navbar .nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-navbar .nav-list li {
+    margin: 0 20px; 
+}
+
+.top-navbar .nav-list li a {
+    color: #D4AF37; 
+    text-decoration: none; 
+}
+
+
+
+#Cybersecurity{
+    background: black;
+}
+#Cybersecurity h2{
+    text-align: center;
+}
+
+#CM h2{
+    text-align: center;
+}
+
+#Cybersecurity .fa-shield-alt {
+    display: block; 
+    
+    font-size: 48px; 
+    color: #D4AF37; 
+    text-align: center; 
+}
+
+#IR .fa-eye {
+    display: block; 
+    
+    font-size: 48px; 
+    color: #D4AF37; 
+    text-align: center; 
+}
+
+#CM .fa-exclamation-circle {
+    display: block; 
+    
+    font-size: 48px; 
+    color: #D4AF37; 
+    text-align: center; 
+}
+.cyber-object .fa {
+    font-size: 36px; 
+    margin: 10px auto; 
+}
+
+#IR h2{
+    text-align: center;
+}
+
+
+#CM h2{
+    text-align: center;
+}
+
+#Cybersecurity .cyber{
+   
+    margin: 20px 0;
+    
+}
+
+#IR.irs{
+   
+    margin: 20px 0;
+    
+}
+#CM.crisis{
+   
+    margin: 20px 0;
+    
+}
+
+#Cybersecurity .cyber .fa{
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    margin-right: 50px;
+    
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease-in;
+}
+
+#IR .irs .fa{
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    margin-right: 50px;
+    
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease-in;
+}
+
+#CM .crisis .fa{
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    margin-right: 50px;
+    
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease-in;
+}
+
+
+#Cybersecurity.cyber.fa:hover{
+
+    background: #004d00;
+    cursor: pointer;
+}
+
+#IR.irs.fa:hover{
+
+    background: #004d00;
+    cursor: pointer;
+}
+
+#CM.crisis.fa:hover{
+
+    background: #004d00;
+    cursor: pointer;
+}
+
+#Cybersecurity .cyber .cyber-heading{
+font-size: 20px;
+font-weight: 600px;
+padding-bottom: 10px;
+color: #004d00;
+}
+
+#IR .irs .irs-heading{
+    font-size: 20px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+    color: #004d00;
+    }
+
+    #CM .crisis .crisis-heading{
+        font-size: 20px;
+        font-weight: 600px;
+        padding-bottom: 10px;
+        color: #004d00;
+        }
+
+.cyber {
+    text-align: center; 
+}
+
+.irs {
+    text-align: center; 
+}
+
+.crisis {
+    text-align: center; 
+}
+
+.cyber .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    transition: all 0.5s ease-in;
+}
+
+.irs .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    transition: all 0.5s ease-in;
+}
+
+.crisis .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    transition: all 0.5s ease-in;
+}
+
+.cyber-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+.irs-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+.crisis-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+.centered-paragraph {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 800px; 
+}
+
+.arsenal-button-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-left: 500px; 
+}
+
+
+
+.arsenal-btn {
+    background-color: transparent; 
+    color: #004d00; 
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+    border: none; 
+    font-style: italic; 
+    transition: color 0.3s;
+}
+
+.arsenal-btn:hover{
+    color: #D4AF37;
+    border-color: transparent;}
+
+.arsenal-btn {
+    font-family: 'Brush Script MT', cursive; 
+    font-style: italic; 
+}
+
+
+
+#HomeSecurity h2 {
+    text-align: center;
+}
+
+#HomeSecurity .fa-home {
+    display: block; 
+    font-size: 48px; 
+    color: #D4AF37; 
+    text-align: center; 
+}
+
+.home-object .fa {
+    font-size: 36px; 
+    margin: 10px auto; 
+}
+
+#HomeSecurity .home {
+    margin: 20px 0;
+}
+
+#HomeSecurity .home .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease-in;
+}
+
+#HomeSecurity .home .fa:hover {
+    background: #004d00;
+    cursor: pointer;
+}
+
+#HomeSecurity .home .home-heading {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #004d00;
+}
+
+#HomeSecurity h2 {
+    color: #004d00;
+}
+#HomeSecurity h2 .green-star{
+    color: #D4AF37;
+}
+
+#BusinessSecurity h2 {
+    color: #004d00;
+}
+#BusinessSecurity h2 .green-star{
+    color: #D4AF37;
+}
+
+.home {
+    text-align: center; 
+}
+
+.home .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    transition: all 0.5s ease-in;
+}
+
+.home-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+#BusinessSecurity h2 {
+    text-align: center;
+}
+
+#BusinessSecurity .fa-shield-alt {
+    display: block; 
+    font-size: 48px; 
+    color: #D4AF37; 
+    text-align: center; 
+}
+
+.business-object .fa {
+    font-size: 36px; 
+    margin: 10px auto; 
+}
+
+#BusinessSecurity .business {
+    margin: 20px 0;
+}
+
+#BusinessSecurity .business .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease-in;
+}
+
+#BusinessSecurity .business .fa:hover {
+    background: #004d00;
+    cursor: pointer;
+}
+
+#BusinessSecurity .business .business-heading {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #004d00;
+}
+
+.business {
+    text-align: center; 
+}
+
+.business .fa {
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    color: #004d00;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    transition: all 0.5s ease-in;
+}
+
+.business-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; 
+    opacity: 0.85; 
+    transition: opacity 0.3s ease;
+}
+
+.image-box:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.image-box:hover img {
+    opacity: 1; 
+}
+
+
+.security-line {
+    position: relative;
+    text-align: center;
+    margin: -50px 0 20px; 
+    background-color: #004d00; 
+    padding: 15px 0; 
+    color: #D4AF37; 
+    font-weight: bold;
+    font-size: 10px; 
+    z-index: 1; 
+}
+
+.circle {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+.circular-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D4AF37;
+    transform: rotate(0deg); 
+    animation: rotate 10s infinite linear; 
+}
+
+.circular-text span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; 
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-list a span {
+    display: inline; 
+}
+
+@media (max-width: 768px) {
+    .nav-list a span {
+        display: none; 
+    }
+
+    .nav-list a {
+        font-size: 24px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+.navbar-container {
+    position: relative;
+    background-color: #004d00;
+    padding: 10px;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+}
+
+#contact-us {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: black;
+    }
+    
+    #contact-us h2 {
+    color: #004d00;
+    text-align: center;
+    }
+    
+    #contact-us p {
+    color: #333333;
+    text-align: center;
+    }
+    
+    #contact-us .form-control {
+    background: transparent;
+    color: #D4AF37;
+    border: 2px solid #D4AF37;
+    border-radius: 0;
+    }
+    
+    #contact-us .form-control:focus {
+    border-color: #004d00;
+    }
+    
+    #contact-us button {
+    background: #004d00;
+    color: #D4AF37;
+    border: none;
+    font-weight: bold;
+    width: 180px;
+    padding: 12px 0;
+    transition: 0.5s;
+    }
+    
+    #contact-us button:hover {
+    background: #D4AF37;
+    color: #004d00;
+    }
+    
+    #contact-us h3 {
+    color: #004d00;
+    text-align: center;
+    }
+    
+    #contact-us p, #contact-us address {
+    color: #333333;
+    }
+    
+    #contact-us i {
+    font-size: 72px;
+    color: #D4AF37;
+    }
+
+    
+
